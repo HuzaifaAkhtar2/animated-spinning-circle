@@ -1,0 +1,15 @@
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background: conic-gradient(violet, indigo, blue, green, yellow, orange, red, violet);
+    border: 2px solid black;
+    animation: rotate 02s linear infinite;
+    margin: auto auto;
+}
+
+@keyframes rotate {
+    100% {
+        rotate: 360deg;
+    }
+}
